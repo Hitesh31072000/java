@@ -26,7 +26,7 @@ public class Person {
     }
 
     public static void main(String[] args) {
-        Person person1 = new Person("Navin", 50000, 20);
+        Person person1 = new Person("Hitesh", 50000, 20);
         Person person2 = new Person("Raj", 75000, 25);
         System.out.println(person1.getName() + "'s Tax: " + person1.calculateTax());
         System.out.println(person2.getName() + "'s Tax: " + person2.calculateTax());
